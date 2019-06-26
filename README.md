@@ -4,7 +4,7 @@ Small set of helper functions to create Redux modules using [ducks-modular-redux
 
 ## Installation
 ```bash
-npm i -S redux-ducks-ts
+yarn add redux-ducks-ts
 ```
 
 ## API
