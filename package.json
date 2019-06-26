@@ -1,12 +1,13 @@
 {
   "name": "redux-ducks-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Small set of helper functions to create Redux modules using ducks-modular-redux proposal write in TypeScript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "jest",
-    "build": "tsc"
+    "build": "tsc",
+    "prepublishOnly": "npm build"
   },
   "repository": {
     "type": "git",
