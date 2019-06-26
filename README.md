@@ -41,8 +41,7 @@ const initialState = {data: 'test'};
 const reducer = myDuck.createReducer({
   [ACTION_TYPE]: (state, action) => ({
     ...state,
-    list: state.list.push(action.payload.id),
-    data: state.map.set(action.payload.id+'', action.payload),
+    data: action.payload
   }),
 }, initialState);
 ```
