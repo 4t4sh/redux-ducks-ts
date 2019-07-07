@@ -14,7 +14,7 @@ export default class Duck {
       ? `${this.appName}/${this.moduleName}/${type}`
       : `${this.moduleName}/${type}`;
 
-  public createAction = (type: string, payload?: any): IAction => {
+  public createAction = (type: string, payload?: any) => {
     const action: IAction = {
       type,
       payload
