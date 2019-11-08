@@ -1,18 +1,17 @@
 {
   "name": "redux-ducks-ts",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Small set of helper functions to create Redux modules using ducks-modular-redux proposal write in TypeScript",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
-  "browser": "dist/index.bundle.js",
   "files": [
-    "dist",
-    "README.md"
+    "dist"
   ],
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "rollup -c && tsc",
-    "build:watch": "rollup -cw",
+    "build": "rollup -c",
+    "watch": "rollup -cw",
+    "build-2": "tsc",
     "test": "jest",
     "verify": "npm run build",
     "prepublishOnly": "npm build"
@@ -36,13 +35,8 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {
-    "@babel/preset-typescript": "^7.3.3",
-    "@types/jest": "^24.0.15",
-    "jest": "^24.8.0",
-    "rollup": "^1.26.0",
-    "rollup-plugin-terser": "^5.1.2",
-    "rollup-plugin-typescript2": "^0.24.3",
-    "ts-jest": "^24.0.2",
-    "typescript": "^3.6.4"
+    "rollup": "^1.26.3",
+    "rollup-plugin-typescript2": "^0.25.2",
+    "typescript": "^3.7.2"
   }
 }
