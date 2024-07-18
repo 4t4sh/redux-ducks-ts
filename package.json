@@ -14,7 +14,7 @@
     "build-2": "tsc",
     "test": "jest",
     "verify": "npm run build",
-    "prepublishOnly": "npm build"
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
