@@ -1,6 +1,6 @@
 {
   "name": "@ataschz/redux-ducks-ts",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Small set of helper functions to create Redux modules using ducks-modular-redux proposal write in TypeScript",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -18,11 +18,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/atasanchez/redux-ducks-ts.git"
+    "url": "git+https://github.com/ataschz/redux-ducks-ts.git"
   },
-  "homepage": "https://github.com/atasanchez/redux-ducks-ts/",
+  "homepage": "https://github.com/ataschz/redux-ducks-ts/",
   "bugs": {
-    "url": "https://github.com/atasanchez/redux-ducks-ts/issues"
+    "url": "https://github.com/ataschz/redux-ducks-ts/issues"
   },
   "keywords": [
     "redux",
@@ -31,7 +31,7 @@
     "helper",
     "small"
   ],
-  "author": "Ata Sanchez <gahs94@gmail.com> (http://atasanchez.com/)",
+  "author": "Ata Sanchez <gahs94@gmail.com> (http://x.com/ataschz)",
   "license": "MIT",
   "private": false,
   "devDependencies": {
