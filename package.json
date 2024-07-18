@@ -1,6 +1,6 @@
 {
   "name": "@ataschz/redux-ducks-ts",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Small set of helper functions to create Redux modules using ducks-modular-redux proposal write in TypeScript",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -40,6 +40,6 @@
     "typescript": "^3.7.2"
   },
   "publishConfig": {
-    "@ataschz": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com/"
   }
 }
