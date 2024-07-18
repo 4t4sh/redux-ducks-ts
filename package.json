@@ -1,6 +1,6 @@
 {
   "name": "@ataschz/redux-ducks-ts",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Small set of helper functions to create Redux modules using ducks-modular-redux proposal write in TypeScript",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
